@@ -21,4 +21,8 @@ export class QuestionsComponent implements OnInit {
     });
   }
 
+  submit() {
+    this.contentService.processAnswers();
+  }
+
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ContentService} from "../content.service";
 
 @Component({
   selector: 'app-result',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResultComponent implements OnInit {
 
-  constructor() { }
+  public results;
+  public categories;
+  constructor(private contentService: ContentService) { }
 
   ngOnInit() {
+    this.results = this.contentService.results.getValue();
+    this.categories = this.contentService.data.getValue().categories;
+    console.log(this.results);
+    console.log(this.categories);
   }
 
 }

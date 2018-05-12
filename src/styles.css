@@ -4,6 +4,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.mat-list-item {
+  height: auto !important;
+  margin-bottom: 25px !important;
+}
 
 .mat-radio-label {
   flex-direction: column;

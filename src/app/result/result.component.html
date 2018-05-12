@@ -1,3 +1,18 @@
-<p>
-  result works!
-</p>
+<mat-card>
+  <mat-card-title>Results</mat-card-title>
+
+  <div class="explanation">
+
+  </div>
+
+  <div class="results">
+    <mat-list role="list">
+      <mat-list-item role="listitem" *ngFor="let category of categories" >
+        <h2 matLine>{{category.value}}</h2>
+        <span class="description" matLine>{{category.description}}</span>
+        <p matSubheader>{{category.id}}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+</mat-card>

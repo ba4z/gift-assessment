@@ -1,7 +1,14 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatCheckboxModule, MatListModule, MatRadioModule} from '@angular/material';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatListModule, MatProgressBarModule,
+  MatProgressSpinnerModule,
+  MatRadioModule
+} from '@angular/material';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 
@@ -34,7 +41,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    MatButtonModule, MatCheckboxModule, MatRadioModule, MatListModule, MatCardModule
+    MatButtonModule, MatCheckboxModule, MatRadioModule, MatListModule, MatCardModule, MatProgressSpinnerModule, MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

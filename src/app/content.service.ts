@@ -4,7 +4,7 @@ import {Observable} from "rxjs/internal/Observable";
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 
 @Injectable({providedIn: 'root'})
-export class ContentServiceService {
+export class ContentService {
 
   public data: BehaviorSubject<any>;
 
@@ -14,9 +14,10 @@ export class ContentServiceService {
 
   loadContent(locale = "en-EN") {
     this.getJSON(locale).subscribe(content => {
-      this.data.next(content);
+      this.data.next(content.data);
     }, err => {
       this.data.error(err);
+      console.log(err);
     });
   }
 

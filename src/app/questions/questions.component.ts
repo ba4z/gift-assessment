@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ContentServiceService} from "../content-service.service";
+import {ContentService} from "../content.service";
 
 @Component({
   selector: 'app-questions',
@@ -8,10 +8,17 @@ import {ContentServiceService} from "../content-service.service";
 })
 export class QuestionsComponent implements OnInit {
 
-  constructor(public contentService: ContentServiceService) { }
+  questions: [any];
+
+  constructor(public contentService: ContentService) { }
 
   ngOnInit() {
-    this.contentService.loadContent();
+    this.contentService.data.subscribe(result => {
+      console.log(result);
+      this.questions = result.questions;
+    }, err => {
+      console.log(err);
+    });
   }
 
 }

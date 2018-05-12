@@ -1,0 +1,16 @@
+.questions {
+  margin: auto;
+  max-width: 768px;
+}
+
+.questions .question-selection {
+  margin-top: 5px;
+}
+
+.question {
+  padding: 10px;
+}
+
+.button-bar {
+  margin: 25px;
+}

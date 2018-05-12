@@ -3,3 +3,13 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+.mat-radio-label {
+  flex-direction: column;
+  width: 50px;
+}
+
+.mat-radio-label-content {
+  padding-left: 0 !important;
+}

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {ContentService} from "./content.service";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -6,7 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
 
+  constructor(private contentService: ContentService, private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+      console.log(params.locale);
+      this.contentService.loadContent(params.locale);
+    });
+
+  }
 
 }

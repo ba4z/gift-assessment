@@ -14,7 +14,7 @@ export class ContentService {
     this.results = new BehaviorSubject<any>({});
   }
 
-  loadContent(locale = "en-EN") {
+  loadContent(locale = "en-US") {
     this.getJSON(locale).subscribe(content => {
       this.data.next(content.data);
     }, err => {
@@ -38,6 +38,6 @@ export class ContentService {
   }
 
   private getJSON(locale): Observable<any> {
-    return this.http.get(`./assets/${locale}.json`);
+    return this.http.get(`/assets/${locale}.json`);
   }
 }

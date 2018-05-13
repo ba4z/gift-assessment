@@ -10,7 +10,7 @@
       <mat-list-item role="listitem" *ngFor="let category of categories" >
         <h2 matLine>{{category.value}}</h2>
         <span class="description" matLine>{{category.description}}</span>
-        <p matSubheader>{{category.id}}</p>
+        <p matSubheader>{{results[category.id] || 0}}</p>
       </mat-list-item>
     </mat-list>
   </div>

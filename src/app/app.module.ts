@@ -21,7 +21,10 @@ import {HomeComponent} from './home/home.component';
 
 
 const appRoutes: Routes = [
+  {path: 'spanish.html', redirectTo: "/es", pathMatch: 'full'},
+  {path: 'portuguese.html', redirectTo: "/pt", pathMatch: 'full'},
   {path: ':locale', component: HomeComponent},
+  {path: '**', redirectTo: '/en-US', pathMatch: 'full'},
 ];
 
 

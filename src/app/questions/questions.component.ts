@@ -14,7 +14,6 @@ export class QuestionsComponent implements OnInit {
 
   ngOnInit() {
     this.contentService.data.subscribe(result => {
-      console.log(result);
       this.questions = result.questions;
     }, err => {
       console.log(err);

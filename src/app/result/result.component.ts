@@ -15,8 +15,7 @@ export class ResultComponent implements OnInit {
   ngOnInit() {
     this.results = this.contentService.results.getValue();
     this.categories = this.contentService.data.getValue().categories;
-    console.log(this.results);
-    console.log(this.categories);
+    window.scrollTo(0,0);
   }
 
 }

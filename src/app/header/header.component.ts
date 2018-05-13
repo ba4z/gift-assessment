@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ContentService} from "../content.service";
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public localized: any = {};
+  constructor(private contentService: ContentService) { }
 
   ngOnInit() {
+    this.contentService.data.subscribe(result => {
+      if(result.localized) {
+        this.localized = result.localized;
+      }
+    })
   }
 
 }

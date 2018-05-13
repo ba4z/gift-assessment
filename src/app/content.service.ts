@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {Observable} from "rxjs/internal/Observable";
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import {Router} from "@angular/router";
+import {Title} from "@angular/platform-browser";
 
 const availableLocales = ["en-US", "es", "pt"];
 
@@ -12,7 +13,7 @@ export class ContentService {
   public data: BehaviorSubject<any>;
   public results: BehaviorSubject<any>;
 
-  constructor(private http: HttpClient, private router: Router) {
+  constructor(private http: HttpClient, private router: Router, private titleService: Title) {
     this.data = new BehaviorSubject<any>({});
     this.results = new BehaviorSubject<any>({});
   }
@@ -23,6 +24,7 @@ export class ContentService {
     }
     this.getJSON(locale).subscribe(content => {
       this.data.next(content.data);
+      this.titleService.setTitle(content.data.localized.title);
     }, err => {
       this.data.error(err);
       console.log(err);

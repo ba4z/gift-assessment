@@ -9,6 +9,8 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class HomeComponent implements OnInit {
 
+  public showLoading = true;
+  public showError = false;
   public showResults = false;
   constructor(private contentService: ContentService, private route: ActivatedRoute) { }
 
@@ -16,6 +18,14 @@ export class HomeComponent implements OnInit {
 
     this.route.params.subscribe(params => {
       this.contentService.loadContent(params.locale);
+    });
+
+    this.contentService.data.subscribe(data => {
+      this.showLoading = false;
+    }, err => {
+      this.showError = true;
+      this.showLoading = false;
+      console.log(err);
     });
 
     this.contentService.results.subscribe(results => {

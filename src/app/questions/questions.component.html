@@ -1,6 +1,6 @@
-<div class="questions">
+<div class="questions" *ngIf="questions">
   <mat-card>
-    <mat-card-title>Questions</mat-card-title>
+    <mat-card-title>{{localized.question}}</mat-card-title>
     <div *ngFor="let question of questions; let i = index" class="question">
       <div class="question-value" matLine>
         <span class="question-number">{{i}}. {{question.value}}</span>
@@ -15,7 +15,7 @@
     </div>
     <mat-card-actions>
       <div class="button-bar">
-        <button mat-raised-button color="primary" (click)="submit()">Submit Answers</button>
+        <button mat-raised-button color="primary" (click)="submit()">{{localized.submitButton}}</button>
       </div>
     </mat-card-actions>
   </mat-card>

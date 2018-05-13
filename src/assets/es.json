@@ -1,115 +1,565 @@
-{"data": {
+{
+  "data": {
     "questions": [
-        {"id": "1", "value":"Puedo hacer varias cosas a la vez", "categoryId":"1"},
-        {"id": "2", "value":"Me gustaría fundar iglesias en áreas que necesitan una iglesia local fuerte", "categoryId":"2"},
-        {"id": "3", "value":"Puedo distinguir fácilmente entre lo correcto y lo incorrecto", "categoryId":"3"},
-        {"id": "4", "value":"Me es fácil persuadir a los demás a que se involucren en áreas del ministerio", "categoryId":"4"},
-        {"id": "5", "value":"Tiendo a compartir la historia de mi caminar cristiano con los demás", "categoryId":"5"},
-        {"id": "6", "value":"Me resulta fácil confiar en que Dios responderá oraciones en situaciones difíciles", "categoryId":"6"},
-        {"id": "7", "value":"Amo dar de mis recursos a las personas o proyectos que necesitan apoyo", "categoryId":"7"},
-        {"id": "8", "value":"Personas me han comentado que mis oraciones les ayudaron a sanar", "categoryId":"8"},
-        {"id": "9", "value":"Disfruto hacer tareas pequeñas que los demás no quieren hacer", "categoryId":"9"},
-        {"id": "10", "value":"Puedo interpretar cuando otros hablan en lenguas", "categoryId":"10"},
-        {"id": "11", "value":"Recibo información acerca de otras personas de parte del Espíritu Santo", "categoryId":"11"},
-        {"id": "12", "value":"Siento empatía hacia aquellos menos afortunados", "categoryId":"12"},
-        {"id": "13", "value":"He sido utilizado por Dios para hacer milagros", "categoryId":"13"},
-        {"id": "14", "value":"Me siento impulsado a compartir verdades que Dios ha impreso en mi mente", "categoryId":"14"},
-        {"id": "15", "value":"Amo guiar a otros hacia un estado saludable de crecimiento y de madurez espiritual", "categoryId":"15"},
-        {"id": "16", "value":"Me siento impulsado a hablar en lenguas a menudo", "categoryId":"16"},
-        {"id": "17", "value":"Hallo profundidad bíblica fácilmente y deseo comunicarla con los demás", "categoryId":"17"},
-        {"id": "18", "value":"La gente a menudo me pide consejo acerca de decisiones importantes", "categoryId":"18"},
-        {"id": "19", "value":"Tengo la habilidad de trabajar eficazmente bajo presión", "categoryId":"1"},
-        {"id": "20", "value":"Estaría dispuesto a reubicarme para plantar una nueva iglesia", "categoryId":"2"},
-        {"id": "21", "value":"Soy capaz de distinguir entre las necesidades reales de una personas y falsas necesidades", "categoryId":"3"},
-        {"id": "22", "value":"Disfruto ofrecer consejo bíblico para ayudar a las personas a tomar decisiones ", "categoryId":"4"},
-        {"id": "23", "value":"Me gusta buscar maneras de entablar relaciones con personas que no van a la iglesia", "categoryId":"5"},
-        {"id": "24", "value":"Creo que Dios puede cumplir grandes cosas en mi vida y las de quienes me rodean", "categoryId":"6"},
-        {"id": "25", "value":"Doy más allá de mis diezmos para apoyar proyectos o programas que cumplen los propósitos de Dios", "categoryId":"7"},
-        {"id": "26", "value":"Tiendo a orar por personas enfermas, sabiendo que Dios las sanará", "categoryId":"8"},
-        {"id": "27", "value":"Preferiría servir a los demás que ser servido por los demás", "categoryId":"9"},
-        {"id": "28", "value":"Cuando la gente habla en lenguas, siento una agitación por interpretar", "categoryId":"10"},
-        {"id": "29", "value":"Percibo información acerca de los demás sin que los demás me den información", "categoryId":"11"},
-        {"id": "30", "value":"Disfruto ayudar a quienes enfrentan situaciones difíciles", "categoryId":"12"},
-        {"id": "31", "value":"La gente dice que he sido usando en sus vidas para ver milagros suceder", "categoryId":"13"},
-        {"id": "32", "value":"Siento que recibo iluminación acerca del futuro", "categoryId":"14"},
-        {"id": "33", "value":"Siento compasión por los necesitados y tiendo a apoyarlos en el proceso", "categoryId":"15"},
-        {"id": "34", "value":"Dios me ha usado para hablar un idioma que no he aprendido a un grupo de personas", "categoryId":"16"},
-        {"id": "35", "value":"Puedo impartir conocimiento y habilidades en una manera que facilita que los demás aprendan", "categoryId":"17"},
-        {"id": "36", "value":"Me es fácil identificar soluciones prácticas donde otros se hallan confundidos", "categoryId":"18"},
-        {"id": "37", "value":"Me gusta participar en lo que parecerían desafíos complejos", "categoryId":"1"},
-        {"id": "38", "value":"A menudo me imagino a mí mismo plantando iglesias", "categoryId":"2"},
-        {"id": "39", "value":"Mis primeras impresiones sobre las motivaciones de los demás a menudo son ciertas", "categoryId":"3"},
-        {"id": "40", "value":"Tiendo a dirigir a las personas hacia las promesas de Dios para ofrecerles esperanza", "categoryId":"4"},
-        {"id": "41", "value":"Aplico exitosamente el Evangelio para conectar con la necesidad o circunstancias de la gente", "categoryId":"5"},
-        {"id": "42", "value":"Estoy convencido de que mis circunstancias no dictan mi fe, sino que la Palabra de Dios dicta mis circunstancias ", "categoryId":"6"},
-        {"id": "43", "value":"El dar caritativamente es una alta prioridad en mi vida", "categoryId":"7"},
-        {"id": "44", "value":"Busco oportunidades para orar por los enfermos", "categoryId":"8"},
-        {"id": "45", "value":"Prefiero fungir detrás de escenas que en roles más visibles", "categoryId":"9"},
-        {"id": "46", "value":"Dios me lleva a traducir el significado de lo que alguien dice en lenguas", "categoryId":"10"},
-        {"id": "47", "value":"Recibo ilustraciones acerca de ciertas personas o circunstancias", "categoryId":"11"},
-        {"id": "48", "value":"Me gusta ayudar de manera práctica a quienes no se pueden ayudar a sí mismos", "categoryId":"12"},
-        {"id": "49", "value":"Ocurren señales y prodigios cuando ministro a los demás", "categoryId":"13"},
-        {"id": "50", "value":"Las Escrituras me muestran cosas acerca de los demás", "categoryId":"14"},
-        {"id": "51", "value":"Busco ayudar a los demás a crecer en Cristo", "categoryId":"15"},
-        {"id": "52", "value":"He sido usado para edificar a otros usando lenguas como herramienta de edificación", "categoryId":"16"},
-        {"id": "53", "value":"Disfruto instruir a la gente y veo cambios positivos como resultado de mi instrucción", "categoryId":"17"},
-        {"id": "54", "value":"Cuando hablo con alguien sobre sus problemas, siento que tengo perspicacia en la situación", "categoryId":"18"},
-        {"id": "55", "value":"Disfruto organizar a personas y programas para cumplir grandes metas", "categoryId":"1"},
-        {"id": "56", "value":"Me llaman la atención los ministerios que fundan iglesias nuevas", "categoryId":"2"},
-        {"id": "57", "value":"Tiendo a ser capaz de “leer entre líneas”", "categoryId":"3"},
-        {"id": "58", "value":"Soy capaz de consolar a otros para desarrollar crecimiento, madurez y salud espiritual", "categoryId":"4"},
-        {"id": "59", "value":"Hablo abiertamente de mi relación con Cristo y amo cuando la gente me pregunta de mi fe", "categoryId":"5"},
-        {"id": "60", "value":"Mi habilidad para avanzar en una tarea asignada por Dios no es afectada cuando hay resistencia", "categoryId":"6"},
-        {"id": "61", "value":"Hallo satisfacción al ver a otros siendo bendecidos cuando doy para suplir sus necesidades", "categoryId":"7"},
-        {"id": "62", "value":"Poseo una pasión personal por ver a otros ser sanados", "categoryId":"8"},
-        {"id": "63", "value":"Me gusta participar en tareas que ayudan a que otros tengan éxito o cumplan logros", "categoryId":"9"},
-        {"id": "64", "value":"Me es fácil entender lo que alguien más dice en lenguas", "categoryId":"10"},
-        {"id": "65", "value":"Dios me revela la fuente del problema, enfermedad o necesidad de una persona", "categoryId":"11"},
-        {"id": "66", "value":"Puedo ver el potencial de Dios en cada persona sin importar sus limitaciones", "categoryId":"12"},
-        {"id": "67", "value":"Tengo fe para creer que Dios puede usarme para cumplir lo imposible", "categoryId":"13"},
-        {"id": "68", "value":"Me siento impulsado a compartir algo en mi corazón durante servicios o reuniones", "categoryId":"14"},
-        {"id": "69", "value":"Disfruto compartir la verdad con otros para guiarlos en avanzar hacia ser más como Cristo", "categoryId":"15"},
-        {"id": "70", "value":"Después de hablar en lenguas, otros han interpretado lo que yo he dicho", "categoryId":"16"},
-        {"id": "71", "value":"Las personas me han dicho que mi instrucción les ha ayudado a entender mejor un concepto o verdad", "categoryId":"17"},
-        {"id": "72", "value":"Parezco tener una habilidad especial para resolver problemas", "categoryId":"18"},
-        {"id": "73", "value":"Me gusta planear cómo cumplir ciertas metas y luego delegarlas", "categoryId":"1"},
-        {"id": "74", "value":"Me gustaría influenciar sobre varias iglesias y equipar a pastores de iglesias locales", "categoryId":"2"},
-        {"id": "75", "value":"Puedo sentir cuando fuerzas malignas están obrando en una persona o situación", "categoryId":"3"},
-        {"id": "76", "value":"Me gusta fortalecer a quienes son espiritualmente débiles", "categoryId":"4"},
-        {"id": "77", "value":"Me emociona encontrar oportunidades para dialogar asuntos espirituales con gente no creyente", "categoryId":"5"},
-        {"id": "78", "value":"Confío en Dios en toda situación en la que el resultado no puede ser garantizado sólo por esfuerzos humanos", "categoryId":"6"},
-        {"id": "79", "value":"Doy de mis pertenencias personales a quienes lo necesitan, sabiendo que Dios me bendecirá", "categoryId":"7"},
-        {"id": "80", "value":"Dios me ha usado como vasija para impartir sanidad a otros", "categoryId":"8"},
-        {"id": "81", "value":"Uso mis talentos para ayudar cuando se necesita, sin importar la tarea", "categoryId":"9"},
-        {"id": "82", "value":"La gente me considera un intérprete de mensajes impartidos en lenguas a los demás", "categoryId":"10"},
-        {"id": "83", "value":"Dios me da dirección específica para ayudar a personas a encontrar soluciones", "categoryId":"11"},
-        {"id": "84", "value":"Me siento impulsado a ofrecer consuelo a personas en situaciones imposibles", "categoryId":"12"},
-        {"id": "85", "value":"Cosas extraordinarias suceden cuando oro por situaciones imposibles", "categoryId":"13"},
-        {"id": "86", "value":"Veo ilustraciones o visiones de personas con respecto a circunstancias que enfrentan", "categoryId":"14"},
-        {"id": "87", "value":"Me gusta guiar a las personas en todas las áreas de sus vidas para cumplir con su potencial", "categoryId":"15"},
-        {"id": "88", "value":"Siento que Dios quiere usarme para hablar en lenguas a creyentes durante reuniones", "categoryId":"16"},
-        {"id": "89", "value":"Amo estudiar, sabiendo que comunicar la verdad traerá cambio a la vida de los demás", "categoryId":"17"},
-        {"id": "90", "value":"Puedo identificar el mejor curso de acción donde existen diversas opciones en conflicto", "categoryId":"18"}
+      {
+        "id": "1",
+        "value": "Puedo hacer varias cosas a la vez",
+        "categoryId": "1"
+      },
+      {
+        "id": "2",
+        "value": "Me gustaría fundar iglesias en áreas que necesitan una iglesia local fuerte",
+        "categoryId": "2"
+      },
+      {
+        "id": "3",
+        "value": "Puedo distinguir fácilmente entre lo correcto y lo incorrecto",
+        "categoryId": "3"
+      },
+      {
+        "id": "4",
+        "value": "Me es fácil persuadir a los demás a que se involucren en áreas del ministerio",
+        "categoryId": "4"
+      },
+      {
+        "id": "5",
+        "value": "Tiendo a compartir la historia de mi caminar cristiano con los demás",
+        "categoryId": "5"
+      },
+      {
+        "id": "6",
+        "value": "Me resulta fácil confiar en que Dios responderá oraciones en situaciones difíciles",
+        "categoryId": "6"
+      },
+      {
+        "id": "7",
+        "value": "Amo dar de mis recursos a las personas o proyectos que necesitan apoyo",
+        "categoryId": "7"
+      },
+      {
+        "id": "8",
+        "value": "Personas me han comentado que mis oraciones les ayudaron a sanar",
+        "categoryId": "8"
+      },
+      {
+        "id": "9",
+        "value": "Disfruto hacer tareas pequeñas que los demás no quieren hacer",
+        "categoryId": "9"
+      },
+      {
+        "id": "10",
+        "value": "Puedo interpretar cuando otros hablan en lenguas",
+        "categoryId": "10"
+      },
+      {
+        "id": "11",
+        "value": "Recibo información acerca de otras personas de parte del Espíritu Santo",
+        "categoryId": "11"
+      },
+      {
+        "id": "12",
+        "value": "Siento empatía hacia aquellos menos afortunados",
+        "categoryId": "12"
+      },
+      {
+        "id": "13",
+        "value": "He sido utilizado por Dios para hacer milagros",
+        "categoryId": "13"
+      },
+      {
+        "id": "14",
+        "value": "Me siento impulsado a compartir verdades que Dios ha impreso en mi mente",
+        "categoryId": "14"
+      },
+      {
+        "id": "15",
+        "value": "Amo guiar a otros hacia un estado saludable de crecimiento y de madurez espiritual",
+        "categoryId": "15"
+      },
+      {
+        "id": "16",
+        "value": "Me siento impulsado a hablar en lenguas a menudo",
+        "categoryId": "16"
+      },
+      {
+        "id": "17",
+        "value": "Hallo profundidad bíblica fácilmente y deseo comunicarla con los demás",
+        "categoryId": "17"
+      },
+      {
+        "id": "18",
+        "value": "La gente a menudo me pide consejo acerca de decisiones importantes",
+        "categoryId": "18"
+      },
+      {
+        "id": "19",
+        "value": "Tengo la habilidad de trabajar eficazmente bajo presión",
+        "categoryId": "1"
+      },
+      {
+        "id": "20",
+        "value": "Estaría dispuesto a reubicarme para plantar una nueva iglesia",
+        "categoryId": "2"
+      },
+      {
+        "id": "21",
+        "value": "Soy capaz de distinguir entre las necesidades reales de una personas y falsas necesidades",
+        "categoryId": "3"
+      },
+      {
+        "id": "22",
+        "value": "Disfruto ofrecer consejo bíblico para ayudar a las personas a tomar decisiones ",
+        "categoryId": "4"
+      },
+      {
+        "id": "23",
+        "value": "Me gusta buscar maneras de entablar relaciones con personas que no van a la iglesia",
+        "categoryId": "5"
+      },
+      {
+        "id": "24",
+        "value": "Creo que Dios puede cumplir grandes cosas en mi vida y las de quienes me rodean",
+        "categoryId": "6"
+      },
+      {
+        "id": "25",
+        "value": "Doy más allá de mis diezmos para apoyar proyectos o programas que cumplen los propósitos de Dios",
+        "categoryId": "7"
+      },
+      {
+        "id": "26",
+        "value": "Tiendo a orar por personas enfermas, sabiendo que Dios las sanará",
+        "categoryId": "8"
+      },
+      {
+        "id": "27",
+        "value": "Preferiría servir a los demás que ser servido por los demás",
+        "categoryId": "9"
+      },
+      {
+        "id": "28",
+        "value": "Cuando la gente habla en lenguas, siento una agitación por interpretar",
+        "categoryId": "10"
+      },
+      {
+        "id": "29",
+        "value": "Percibo información acerca de los demás sin que los demás me den información",
+        "categoryId": "11"
+      },
+      {
+        "id": "30",
+        "value": "Disfruto ayudar a quienes enfrentan situaciones difíciles",
+        "categoryId": "12"
+      },
+      {
+        "id": "31",
+        "value": "La gente dice que he sido usando en sus vidas para ver milagros suceder",
+        "categoryId": "13"
+      },
+      {
+        "id": "32",
+        "value": "Siento que recibo iluminación acerca del futuro",
+        "categoryId": "14"
+      },
+      {
+        "id": "33",
+        "value": "Siento compasión por los necesitados y tiendo a apoyarlos en el proceso",
+        "categoryId": "15"
+      },
+      {
+        "id": "34",
+        "value": "Dios me ha usado para hablar un idioma que no he aprendido a un grupo de personas",
+        "categoryId": "16"
+      },
+      {
+        "id": "35",
+        "value": "Puedo impartir conocimiento y habilidades en una manera que facilita que los demás aprendan",
+        "categoryId": "17"
+      },
+      {
+        "id": "36",
+        "value": "Me es fácil identificar soluciones prácticas donde otros se hallan confundidos",
+        "categoryId": "18"
+      },
+      {
+        "id": "37",
+        "value": "Me gusta participar en lo que parecerían desafíos complejos",
+        "categoryId": "1"
+      },
+      {
+        "id": "38",
+        "value": "A menudo me imagino a mí mismo plantando iglesias",
+        "categoryId": "2"
+      },
+      {
+        "id": "39",
+        "value": "Mis primeras impresiones sobre las motivaciones de los demás a menudo son ciertas",
+        "categoryId": "3"
+      },
+      {
+        "id": "40",
+        "value": "Tiendo a dirigir a las personas hacia las promesas de Dios para ofrecerles esperanza",
+        "categoryId": "4"
+      },
+      {
+        "id": "41",
+        "value": "Aplico exitosamente el Evangelio para conectar con la necesidad o circunstancias de la gente",
+        "categoryId": "5"
+      },
+      {
+        "id": "42",
+        "value": "Estoy convencido de que mis circunstancias no dictan mi fe, sino que la Palabra de Dios dicta mis circunstancias ",
+        "categoryId": "6"
+      },
+      {
+        "id": "43",
+        "value": "El dar caritativamente es una alta prioridad en mi vida",
+        "categoryId": "7"
+      },
+      {
+        "id": "44",
+        "value": "Busco oportunidades para orar por los enfermos",
+        "categoryId": "8"
+      },
+      {
+        "id": "45",
+        "value": "Prefiero fungir detrás de escenas que en roles más visibles",
+        "categoryId": "9"
+      },
+      {
+        "id": "46",
+        "value": "Dios me lleva a traducir el significado de lo que alguien dice en lenguas",
+        "categoryId": "10"
+      },
+      {
+        "id": "47",
+        "value": "Recibo ilustraciones acerca de ciertas personas o circunstancias",
+        "categoryId": "11"
+      },
+      {
+        "id": "48",
+        "value": "Me gusta ayudar de manera práctica a quienes no se pueden ayudar a sí mismos",
+        "categoryId": "12"
+      },
+      {
+        "id": "49",
+        "value": "Ocurren señales y prodigios cuando ministro a los demás",
+        "categoryId": "13"
+      },
+      {
+        "id": "50",
+        "value": "Las Escrituras me muestran cosas acerca de los demás",
+        "categoryId": "14"
+      },
+      {
+        "id": "51",
+        "value": "Busco ayudar a los demás a crecer en Cristo",
+        "categoryId": "15"
+      },
+      {
+        "id": "52",
+        "value": "He sido usado para edificar a otros usando lenguas como herramienta de edificación",
+        "categoryId": "16"
+      },
+      {
+        "id": "53",
+        "value": "Disfruto instruir a la gente y veo cambios positivos como resultado de mi instrucción",
+        "categoryId": "17"
+      },
+      {
+        "id": "54",
+        "value": "Cuando hablo con alguien sobre sus problemas, siento que tengo perspicacia en la situación",
+        "categoryId": "18"
+      },
+      {
+        "id": "55",
+        "value": "Disfruto organizar a personas y programas para cumplir grandes metas",
+        "categoryId": "1"
+      },
+      {
+        "id": "56",
+        "value": "Me llaman la atención los ministerios que fundan iglesias nuevas",
+        "categoryId": "2"
+      },
+      {
+        "id": "57",
+        "value": "Tiendo a ser capaz de “leer entre líneas”",
+        "categoryId": "3"
+      },
+      {
+        "id": "58",
+        "value": "Soy capaz de consolar a otros para desarrollar crecimiento, madurez y salud espiritual",
+        "categoryId": "4"
+      },
+      {
+        "id": "59",
+        "value": "Hablo abiertamente de mi relación con Cristo y amo cuando la gente me pregunta de mi fe",
+        "categoryId": "5"
+      },
+      {
+        "id": "60",
+        "value": "Mi habilidad para avanzar en una tarea asignada por Dios no es afectada cuando hay resistencia",
+        "categoryId": "6"
+      },
+      {
+        "id": "61",
+        "value": "Hallo satisfacción al ver a otros siendo bendecidos cuando doy para suplir sus necesidades",
+        "categoryId": "7"
+      },
+      {
+        "id": "62",
+        "value": "Poseo una pasión personal por ver a otros ser sanados",
+        "categoryId": "8"
+      },
+      {
+        "id": "63",
+        "value": "Me gusta participar en tareas que ayudan a que otros tengan éxito o cumplan logros",
+        "categoryId": "9"
+      },
+      {
+        "id": "64",
+        "value": "Me es fácil entender lo que alguien más dice en lenguas",
+        "categoryId": "10"
+      },
+      {
+        "id": "65",
+        "value": "Dios me revela la fuente del problema, enfermedad o necesidad de una persona",
+        "categoryId": "11"
+      },
+      {
+        "id": "66",
+        "value": "Puedo ver el potencial de Dios en cada persona sin importar sus limitaciones",
+        "categoryId": "12"
+      },
+      {
+        "id": "67",
+        "value": "Tengo fe para creer que Dios puede usarme para cumplir lo imposible",
+        "categoryId": "13"
+      },
+      {
+        "id": "68",
+        "value": "Me siento impulsado a compartir algo en mi corazón durante servicios o reuniones",
+        "categoryId": "14"
+      },
+      {
+        "id": "69",
+        "value": "Disfruto compartir la verdad con otros para guiarlos en avanzar hacia ser más como Cristo",
+        "categoryId": "15"
+      },
+      {
+        "id": "70",
+        "value": "Después de hablar en lenguas, otros han interpretado lo que yo he dicho",
+        "categoryId": "16"
+      },
+      {
+        "id": "71",
+        "value": "Las personas me han dicho que mi instrucción les ha ayudado a entender mejor un concepto o verdad",
+        "categoryId": "17"
+      },
+      {
+        "id": "72",
+        "value": "Parezco tener una habilidad especial para resolver problemas",
+        "categoryId": "18"
+      },
+      {
+        "id": "73",
+        "value": "Me gusta planear cómo cumplir ciertas metas y luego delegarlas",
+        "categoryId": "1"
+      },
+      {
+        "id": "74",
+        "value": "Me gustaría influenciar sobre varias iglesias y equipar a pastores de iglesias locales",
+        "categoryId": "2"
+      },
+      {
+        "id": "75",
+        "value": "Puedo sentir cuando fuerzas malignas están obrando en una persona o situación",
+        "categoryId": "3"
+      },
+      {
+        "id": "76",
+        "value": "Me gusta fortalecer a quienes son espiritualmente débiles",
+        "categoryId": "4"
+      },
+      {
+        "id": "77",
+        "value": "Me emociona encontrar oportunidades para dialogar asuntos espirituales con gente no creyente",
+        "categoryId": "5"
+      },
+      {
+        "id": "78",
+        "value": "Confío en Dios en toda situación en la que el resultado no puede ser garantizado sólo por esfuerzos humanos",
+        "categoryId": "6"
+      },
+      {
+        "id": "79",
+        "value": "Doy de mis pertenencias personales a quienes lo necesitan, sabiendo que Dios me bendecirá",
+        "categoryId": "7"
+      },
+      {
+        "id": "80",
+        "value": "Dios me ha usado como vasija para impartir sanidad a otros",
+        "categoryId": "8"
+      },
+      {
+        "id": "81",
+        "value": "Uso mis talentos para ayudar cuando se necesita, sin importar la tarea",
+        "categoryId": "9"
+      },
+      {
+        "id": "82",
+        "value": "La gente me considera un intérprete de mensajes impartidos en lenguas a los demás",
+        "categoryId": "10"
+      },
+      {
+        "id": "83",
+        "value": "Dios me da dirección específica para ayudar a personas a encontrar soluciones",
+        "categoryId": "11"
+      },
+      {
+        "id": "84",
+        "value": "Me siento impulsado a ofrecer consuelo a personas en situaciones imposibles",
+        "categoryId": "12"
+      },
+      {
+        "id": "85",
+        "value": "Cosas extraordinarias suceden cuando oro por situaciones imposibles",
+        "categoryId": "13"
+      },
+      {
+        "id": "86",
+        "value": "Veo ilustraciones o visiones de personas con respecto a circunstancias que enfrentan",
+        "categoryId": "14"
+      },
+      {
+        "id": "87",
+        "value": "Me gusta guiar a las personas en todas las áreas de sus vidas para cumplir con su potencial",
+        "categoryId": "15"
+      },
+      {
+        "id": "88",
+        "value": "Siento que Dios quiere usarme para hablar en lenguas a creyentes durante reuniones",
+        "categoryId": "16"
+      },
+      {
+        "id": "89",
+        "value": "Amo estudiar, sabiendo que comunicar la verdad traerá cambio a la vida de los demás",
+        "categoryId": "17"
+      },
+      {
+        "id": "90",
+        "value": "Puedo identificar el mejor curso de acción donde existen diversas opciones en conflicto",
+        "categoryId": "18"
+      }
     ],
-    "categories":[
-        {"id": "1", "value":"Administración", "description":"Este don es la habilidad divina para entender y eficazmente realizar tareas que hacen que una organización funcione apropiadamente. Esto incluye la habilidad para planear y organizar ciertas metas para cumplir objetivos del ministerio. (Lucas 14:28-30; Hechos 6:1-7; Romanos 12:8; 1 Corintios 12:28)"},
-        {"id": "2", "value":"Apóstol/Pionero", "description":"El don de apóstol/pionero es la habilidad divina que Dios le da a miembros del cuerpo de Cristo para ejercer liderazgo sobre múltiples iglesias. (Hechos 13:2-3; Romanos1:5; 1 Corintios 12:28-29; Efesios 4:11-12)"},
-        {"id": "3", "value":"Discernimiento", "description":"Este don es la habilidad divina para comprender con seguridad si una fuente de comunicación o situación proviene de Dios, el hombre, o Satanás. (Mateo 16:21-23; Hechos 5:1-11; Hechos 16:16-18; 1 Corintios 12:10; 1 Juan 4:1-6)"},
-        {"id": "4", "value":"Exhortación", "description":"Este don es la habilidad divina para apoyar, fortalecer, alentar y aconsejar a los necesitados para que se sientan apoyados y sanados. (Hechos 14:22; Romanos12:8; 1 Timoteo 4:13)"},
-        {"id": "5", "value":"Evangelismo", "description":"Este don es la habilidad divina para comunicar el Evangelio de Jesucristo eficazmente a los incrédulos, resultando en salvaciones y avance hacia la salud, crecimiento y madurez. (Lucas 19:1-10; Hechos 8:26-40; Efesios 4:11)"},
-        {"id": "6", "value":"Fe", "description":"Este don es la habilidad divina para aceptar con confianza inamovible las promesas y propósitos de Dios, así como Su habilidad para realizarlos. (Hechos 11:22-24; Romanos 4:18-21; 1 Corintios 12:9; Hebreos 11)"},
-        {"id": "7", "value":"Dar", "description":"Este don es la habilidad divina para contribuir con finanzas y otros recursos generosamente y con alegría, más allá del nivel esperado de todos los creyentes, para el beneficio del reino de Dios. (Marcos 12:41-44; Romanos 12:8; 2 Corintios 8:1-7; 2 Corintios 9:2-8)"},
-        {"id": "8", "value":"Sanidad", "description":"Este don es la habilidad divina para servir como vasija que Dios utiliza para restaurar a la gente hacia un estado íntegro, lo cual incluye las áreas física, espiritual y emocional. (Hechos 3:1-10; Hechos 5:12-16; Hechos 9:32-35; Hechos 28:7-10; 1 Corintios 12:9)"},
-        {"id": "9", "value":"Servir/Ayudar", "description":"Este don es la habilidad divina para dedicar talentos y habilidades que ayuden en el ministerio de otros. (Hechos 6:1-4; Hechos 9:46; Romanos 12:7; Romanos 16:1-2; 1 Corintios 12:28)"},
-        {"id": "10", "value":"Interpretación", "description":"Este don es la habilidad divina para traducir un mensaje dado a un cuerpo de creyentes en lenguas, al idioma conocido por el grupo. (1 Corintios 12:10,30; 1 Corintios 14:5,13,26-28)"},
-        {"id": "11", "value":"Conocimiento", "description":"Este don es la habilidad divina para conocer cosas que no podrían ser conocidas de otro modo. (Marcos 2:6-8; Hechos 5:1-11; 1 Corintios 12:8; 2 Corintios 11:6)"},
-        {"id": "12", "value":"Misericordia", "description":"El don de misericordia es la habilidad divina para ver a los necesitados y ser conmovido con empatía y compasión, resultando en acciones significativas que ayudan a personas en circunstancias de presión a ser ministradas. (Mateo 20:29-34; Lucas 10:25-37; Hechos 11:28-30; Romanos 12:8)"},
-        {"id": "13", "value":"Milagros", "description":"Este don es la habilidad divina para ser usado por el Espíritu Santo en maneras sobrenaturales para realizar obras poderosas que alteren el curso de la naturaleza y resulten en la glorificación de Dios. (Juan 2:1-11; Hechos 20:7-12; Romanos 15:18-19; 1 Corintios 12:10,28)"},
-        {"id": "14", "value":"Profecía", "description":"Este don es la habilidad divina para recibir, interpretar e impartir un mensaje de Dios en el momento correcto para la edificación, arrepentimiento, entendimiento y/o corrección. (Hechos 15:32; Romanos 12:6; 1 Corintios 12:28; Efesios 4:11-14; 2 Pedro 1:19-20)"},
-        {"id": "15", "value":"Pastorear", "description":"Este don es la habilidad divina para asumir una responsabilidad personal de cuidar y guiar a otros a mayor profundidad de salud, crecimiento y madurez espiritual. (Juan 10:1-18; Efesios 4:11-12; 1 Timoteo 3:1-7; 1 Pedro 5:1-3)"},
-        {"id": "16", "value":"Lenguas", "description":"El don de lenguas es la habilidad divina para recibir y comunicar un mensaje de parte de Dios a Su pueblo mediante un lenguaje celestial inspirado, lo cual es distinto a hablar con Dios en un idioma angélico en privado para edificación devocional propia. (Marcos 16:17; Hechos 2:1-13; Hechos 10:44-46; 1 Corintios 12:10,28-30; 1 Corintios 14:1-33)"},
-        {"id": "17", "value":"Enseñanza", "description":"Este don es la habilidad divina para recibir verdades de parte de Dios y de Su Palabra, y comunicarlas en una manera relevante, resultando en otros aprendiendo y aplicando esas verdades a su caminar personal con Cristo. (Hechos 18:24-28; Hechos 20:20-21; 1 Corintios 12:28; Efesios 4:11-13)"},
-        {"id": "18", "value":"Sabiduría", "description":"El don de palabra de sabiduría es la habilidad divina para conocer la mente de Dios con respecto a cierta situación en una manera que provee entendimiento sobrenatural, resultando en otros recibiendo dirección y claridad de parte de Dios para tomar decisiones. (Hechos 6:3; 1 Corintios 2:1-13; 1 Corintios 12:8; Santiago 3:13-18; 2 Pedro 3:15)"}
-    ]
-
-}}
+    "categories": [
+      {
+        "id": "1",
+        "value": "Administración",
+        "description": "Este don es la habilidad divina para entender y eficazmente realizar tareas que hacen que una organización funcione apropiadamente. Esto incluye la habilidad para planear y organizar ciertas metas para cumplir objetivos del ministerio. (Lucas 14:28-30; Hechos 6:1-7; Romanos 12:8; 1 Corintios 12:28)"
+      },
+      {
+        "id": "2",
+        "value": "Apóstol/Pionero",
+        "description": "El don de apóstol/pionero es la habilidad divina que Dios le da a miembros del cuerpo de Cristo para ejercer liderazgo sobre múltiples iglesias. (Hechos 13:2-3; Romanos1:5; 1 Corintios 12:28-29; Efesios 4:11-12)"
+      },
+      {
+        "id": "3",
+        "value": "Discernimiento",
+        "description": "Este don es la habilidad divina para comprender con seguridad si una fuente de comunicación o situación proviene de Dios, el hombre, o Satanás. (Mateo 16:21-23; Hechos 5:1-11; Hechos 16:16-18; 1 Corintios 12:10; 1 Juan 4:1-6)"
+      },
+      {
+        "id": "4",
+        "value": "Exhortación",
+        "description": "Este don es la habilidad divina para apoyar, fortalecer, alentar y aconsejar a los necesitados para que se sientan apoyados y sanados. (Hechos 14:22; Romanos12:8; 1 Timoteo 4:13)"
+      },
+      {
+        "id": "5",
+        "value": "Evangelismo",
+        "description": "Este don es la habilidad divina para comunicar el Evangelio de Jesucristo eficazmente a los incrédulos, resultando en salvaciones y avance hacia la salud, crecimiento y madurez. (Lucas 19:1-10; Hechos 8:26-40; Efesios 4:11)"
+      },
+      {
+        "id": "6",
+        "value": "Fe",
+        "description": "Este don es la habilidad divina para aceptar con confianza inamovible las promesas y propósitos de Dios, así como Su habilidad para realizarlos. (Hechos 11:22-24; Romanos 4:18-21; 1 Corintios 12:9; Hebreos 11)"
+      },
+      {
+        "id": "7",
+        "value": "Dar",
+        "description": "Este don es la habilidad divina para contribuir con finanzas y otros recursos generosamente y con alegría, más allá del nivel esperado de todos los creyentes, para el beneficio del reino de Dios. (Marcos 12:41-44; Romanos 12:8; 2 Corintios 8:1-7; 2 Corintios 9:2-8)"
+      },
+      {
+        "id": "8",
+        "value": "Sanidad",
+        "description": "Este don es la habilidad divina para servir como vasija que Dios utiliza para restaurar a la gente hacia un estado íntegro, lo cual incluye las áreas física, espiritual y emocional. (Hechos 3:1-10; Hechos 5:12-16; Hechos 9:32-35; Hechos 28:7-10; 1 Corintios 12:9)"
+      },
+      {
+        "id": "9",
+        "value": "Servir/Ayudar",
+        "description": "Este don es la habilidad divina para dedicar talentos y habilidades que ayuden en el ministerio de otros. (Hechos 6:1-4; Hechos 9:46; Romanos 12:7; Romanos 16:1-2; 1 Corintios 12:28)"
+      },
+      {
+        "id": "10",
+        "value": "Interpretación",
+        "description": "Este don es la habilidad divina para traducir un mensaje dado a un cuerpo de creyentes en lenguas, al idioma conocido por el grupo. (1 Corintios 12:10,30; 1 Corintios 14:5,13,26-28)"
+      },
+      {
+        "id": "11",
+        "value": "Conocimiento",
+        "description": "Este don es la habilidad divina para conocer cosas que no podrían ser conocidas de otro modo. (Marcos 2:6-8; Hechos 5:1-11; 1 Corintios 12:8; 2 Corintios 11:6)"
+      },
+      {
+        "id": "12",
+        "value": "Misericordia",
+        "description": "El don de misericordia es la habilidad divina para ver a los necesitados y ser conmovido con empatía y compasión, resultando en acciones significativas que ayudan a personas en circunstancias de presión a ser ministradas. (Mateo 20:29-34; Lucas 10:25-37; Hechos 11:28-30; Romanos 12:8)"
+      },
+      {
+        "id": "13",
+        "value": "Milagros",
+        "description": "Este don es la habilidad divina para ser usado por el Espíritu Santo en maneras sobrenaturales para realizar obras poderosas que alteren el curso de la naturaleza y resulten en la glorificación de Dios. (Juan 2:1-11; Hechos 20:7-12; Romanos 15:18-19; 1 Corintios 12:10,28)"
+      },
+      {
+        "id": "14",
+        "value": "Profecía",
+        "description": "Este don es la habilidad divina para recibir, interpretar e impartir un mensaje de Dios en el momento correcto para la edificación, arrepentimiento, entendimiento y/o corrección. (Hechos 15:32; Romanos 12:6; 1 Corintios 12:28; Efesios 4:11-14; 2 Pedro 1:19-20)"
+      },
+      {
+        "id": "15",
+        "value": "Pastorear",
+        "description": "Este don es la habilidad divina para asumir una responsabilidad personal de cuidar y guiar a otros a mayor profundidad de salud, crecimiento y madurez espiritual. (Juan 10:1-18; Efesios 4:11-12; 1 Timoteo 3:1-7; 1 Pedro 5:1-3)"
+      },
+      {
+        "id": "16",
+        "value": "Lenguas",
+        "description": "El don de lenguas es la habilidad divina para recibir y comunicar un mensaje de parte de Dios a Su pueblo mediante un lenguaje celestial inspirado, lo cual es distinto a hablar con Dios en un idioma angélico en privado para edificación devocional propia. (Marcos 16:17; Hechos 2:1-13; Hechos 10:44-46; 1 Corintios 12:10,28-30; 1 Corintios 14:1-33)"
+      },
+      {
+        "id": "17",
+        "value": "Enseñanza",
+        "description": "Este don es la habilidad divina para recibir verdades de parte de Dios y de Su Palabra, y comunicarlas en una manera relevante, resultando en otros aprendiendo y aplicando esas verdades a su caminar personal con Cristo. (Hechos 18:24-28; Hechos 20:20-21; 1 Corintios 12:28; Efesios 4:11-13)"
+      },
+      {
+        "id": "18",
+        "value": "Sabiduría",
+        "description": "El don de palabra de sabiduría es la habilidad divina para conocer la mente de Dios con respecto a cierta situación en una manera que provee entendimiento sobrenatural, resultando en otros recibiendo dirección y claridad de parte de Dios para tomar decisiones. (Hechos 6:3; 1 Corintios 2:1-13; 1 Corintios 12:8; Santiago 3:13-18; 2 Pedro 3:15)"
+      }
+    ],
+    "localized": {
+      "title": "Formulario de Evaluación de Dones",
+      "subtitle": "Lee y asigna puntos a cada una de las siguientes preguntas según la siguiente escala:",
+      "explanation": "Contesta estas preguntas de acuerdo a quien eres, y no a quien crees que deberías ser. Escribe tu puntaje en la casilla a la derecha de cada pregunta Una vez que hayas completado todas las preguntas, haz clic en ‘Entregar’ para ver los resultados.",
+      "question": "Pregunta",
+      "score": [
+        "No; nunca ha ocurrido",
+        "Rara vez; casi nunca",
+        "Ocasionalmente; de vez en cuando",
+        "Frecuentemente; ocurre seguido",
+        "Casi siempre; constantemente"
+      ],
+      "submitButton": "Entregar",
+      "result": {
+        "title": "Entendiendo tu don espiritual"
+      }
+    }
+  }
+}

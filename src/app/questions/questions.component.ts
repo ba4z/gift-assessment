@@ -9,12 +9,16 @@ import {ContentService} from "../content.service";
 export class QuestionsComponent implements OnInit {
 
   questions: [any];
+  localized: any = {};
 
   constructor(public contentService: ContentService) { }
 
   ngOnInit() {
     this.contentService.data.subscribe(result => {
-      this.questions = result.questions;
+      if(result.localized) {
+        this.questions = result.questions;
+        this.localized = result.localized;
+      }
     }, err => {
       console.log(err);
     });

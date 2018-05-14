@@ -46,6 +46,6 @@ export class ContentService {
   }
 
   private getJSON(locale): Observable<any> {
-    return this.http.get(`/assets/${locale}.json`);
+    return this.http.get(`./assets/${locale}.json`);
   }
 }

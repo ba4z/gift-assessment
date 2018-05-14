@@ -4,10 +4,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
   MatButtonModule,
   MatCardModule,
-  MatCheckboxModule,
+  MatCheckboxModule, MatIconModule,
   MatListModule, MatProgressBarModule,
   MatProgressSpinnerModule,
-  MatRadioModule
+  MatRadioModule,
+  MatToolbarModule
 } from '@angular/material';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
@@ -18,6 +19,7 @@ import {ResultComponent} from './result/result.component';
 import {RouterModule, Routes} from "@angular/router";
 import {HeaderComponent} from './header/header.component';
 import {HomeComponent} from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -34,7 +36,8 @@ const appRoutes: Routes = [
     QuestionsComponent,
     ResultComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,
@@ -44,7 +47,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    MatButtonModule, MatCheckboxModule, MatRadioModule, MatListModule, MatCardModule, MatProgressSpinnerModule, MatProgressBarModule
+    MatButtonModule, MatCheckboxModule, MatRadioModule, MatListModule, MatCardModule, MatProgressSpinnerModule, MatProgressBarModule, MatToolbarModule, MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

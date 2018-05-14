@@ -20,3 +20,15 @@
 .header p {
   color: gray;
 }
+
+mat-toolbar {
+  justify-content: center;
+  align-items: center;
+}
+
+mat-toolbar img {
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+  padding: 0 10px;
+}
